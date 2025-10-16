@@ -1,0 +1,538 @@
+@import url("https://fonts.googleapis.com/css2?family=Vampiro+One&display=swap");
+
+body {
+  background: linear-gradient(#08a1dd 0%, #dd4c4f 40%, #7420d3 100%);
+  background-image: url(about.jpeg);
+  background-size: 100%;
+  font-family: "Poppins", sans-serif;
+}
+
+.bg-light {
+  background: #00000000 !important;
+  /* backdrop-filter: blur(3px);
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.589); */
+  transition: all 0.5s;
+}
+.bg-light.scrolled {
+  background: #ffffff !important;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.589);
+  transition: all 0.5s;
+}
+.nav a {
+  color: white;
+}
+.nav a:hover {
+  color: rgb(192, 191, 191);
+}
+.nav.scrolled a {
+  color: rgb(155, 49, 255);
+}
+.nav.scrolled a:hover {
+  color: rgb(208, 157, 255);
+}
+.buttonToggle {
+  display: none;
+}
+.initial {
+  font-family: "Vampiro One", cursive;
+  font-size: 30px;
+  margin: -10px;
+}
+.all-body-cover {
+  margin-top: 200px;
+}
+.opening {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+}
+.nama {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+}
+.img-thumbnail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.waves {
+  margin-top: -100px;
+  margin-bottom: 70px;
+}
+.firstContainer {
+  background: linear-gradient(
+    #ffffff 0%,
+    #ffffff 50%,
+    #ffffffde 70%,
+    #ffffffb6 75%,
+    #ffffff7e 80%,
+    #ffffff49 85%,
+    #ffffff1f 90%,
+    #ffffff00 100%
+  );
+  margin-top: -80px;
+  margin-bottom: 50px;
+}
+
+.content {
+  padding-bottom: 400px;
+}
+.nameHeading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.subNameHeading {
+  display: none;
+}
+.content .row {
+  padding-bottom: 40px;
+}
+.education {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.itemEdu {
+  padding: 10px;
+}
+.startEnd {
+  margin-bottom: -1px;
+}
+.achive {
+  margin-top: -200px;
+  margin-bottom: 30px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wavesss {
+  margin-bottom: -20px;
+}
+.thirdContainer {
+  background-color: #fff;
+  margin-top: 20px;
+}
+.projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.article-container-firstRow {
+  width: 1100px;
+  height: 250px;
+  overflow: hidden;
+  position: relative;
+  font-family: "Sofia Sans Semi Condensed", sans-serif;
+  text-align: center;
+  box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.589);
+  border-radius: 10px;
+}
+.article-container-secondRow {
+  width: 340px;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+  font-family: "Sofia Sans Semi Condensed", sans-serif;
+  text-align: center;
+}
+.article-container-thirdRow {
+  width: 530px;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+  font-family: "Sofia Sans Semi Condensed", sans-serif;
+  text-align: center;
+}
+
+.categoryy .container .col {
+  margin-bottom: 20px;
+}
+.article-img-holder-firstRow {
+  width: 100%;
+  height: 100%;
+  background: url("../img/porto1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all 0.7s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  font-size: 40px;
+}
+.article-img-holder-secondRow {
+  width: 100%;
+  height: 100%;
+  transition: all 0.7s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  font-size: 35px;
+}
+
+.article-img-holder-thirdRow {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all 0.7s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  font-size: 40px;
+}
+
+.article-img-holder-firstRow:hover {
+  transform: scale(1.2);
+  filter: saturate(0%);
+}
+.article-img-holder-secondRow:hover {
+  transform: scale(1.2);
+  filter: saturate(0%);
+}
+.article-img-holder-thirdRow:hover {
+  transform: scale(1.2);
+  filter: saturate(0%);
+}
+.fourthContainer {
+  margin-top: 200px;
+}
+.fivethContainer {
+  margin-top: -150px;
+  background-color: #fff;
+}
+.linkSosmed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.contactMe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -90px;
+}
+
+.card-container-1 {
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* --- Card --- */
+.card-1 {
+  position: relative;
+  width: 260px;
+  border-radius: 20px;
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+  animation: fadeInUp 1s ease forwards;
+}
+
+/* --- Efek border RGB melingkar --- */
+.card-1::before {
+  content: "";
+  position: absolute;
+  inset: -3px;
+  border-radius: 20px;
+  background: conic-gradient(
+    from 0deg,
+    red,
+    yellow,
+    lime,
+    cyan,
+    blue,
+    magenta,
+    red
+  );
+  z-index: -1;
+  animation: spinRGB 4s linear infinite;
+}
+
+/* --- Layer hitam dalam supaya isi card tetap jelas --- */
+.card-1::after {
+  content: "";
+  position: absolute;
+  inset: 3px;
+  background: white;
+  border-radius: 18px;
+  z-index: -1;
+}
+
+.card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+}
+
+.card-body-1 {
+  padding: 15px;
+  color: black;
+  text-align: center;
+}
+
+.card h5 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+/* --- Animasi RGB berputar (melingkar) --- */
+@keyframes spinRGB {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* --- Animasi masuk halus --- */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Delay tiap card biar muncul berurutan */
+.ncand-1 .card { animation-delay: 0s; }
+.ncand-2 .card { animation-delay: 0.2s; }
+.ncand-3 .card { animation-delay: 0.4s; }
+.ncand-4 .card { animation-delay: 0.6s; }
+  
+.foto {
+  size: 100%;
+}
+
+
+/* From Uiverse.io by csozidev */ 
+/* Spotify music card made by: csozi | Website: www.csozi.hu*/
+
+.card-2 {
+  position: relative;
+  width: 250px;
+  height: 120px;
+  background-image: url(about.jpeg);
+  background-size: 100%;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.top-2 {
+  position: relative;
+  width: 100%;
+  display: flex;
+  gap: 10px;
+}
+
+.pfp-2 {
+  position: relative;
+  top: 5px;
+  left: 5px;
+  height: 40px;
+  width: 40px;
+  background-color: #d2d2d2;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-1 {
+  color: rgb(146, 138, 138);
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.title-2 {
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.time {
+  width: 90%;
+  background-color: #5e5e5e;
+  height: 6px;
+  border-radius: 3px;
+  position: absolute;
+  left: 5%;
+  bottom: 22px;
+}
+
+.elapsed {
+  width: 42%;
+  background-color: #1db954;
+  height: 100%;
+  border-radius: 3px;
+}
+
+.controls {
+  color: white;
+  display: flex;
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  width: 100%;
+  justify-content: center;
+}
+
+.volume {
+  height: 100%;
+  width: 48px;
+}
+
+.air {
+  height: 100%;
+  width: 48px;
+}
+
+.controls svg {
+  cursor: pointer;
+  transition: 0.1s;
+}
+
+.controls svg:hover {
+  color: #1db954;
+}
+
+.volume {
+  opacity: 0;
+  position: relative;
+  transition: 0.2s;
+}
+
+.volume .slider {
+  height: 4px;
+  background-color: #5e5e5e;
+  width: 80%;
+  border-radius: 2px;
+  margin-top: 8px;
+  margin-left: 10%;
+}
+
+.volume .slider .green {
+  background-color: #1db954;
+  height: 100%;
+  width: 80%;
+  border-radius: 3px;
+}
+
+.volume .circle {
+  background-color: white;
+  height: 6px;
+  width: 6px;
+  border-radius: 3px;
+  position: absolute;
+  right: 20%;
+  top: 60%;
+}
+
+.volume_button:hover ~ .volume {
+  opacity: 1;
+}
+
+.timetext {
+  color: white;
+  font-size: 8px;
+  position: absolute;
+}
+
+.time_now {
+  bottom: 11px;
+  left: 10px;
+}
+
+.time_full {
+  bottom: 11px;
+  right: 10px;
+}
+
+.playing {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  gap: 1px;
+  width: 30px;
+  height: 20px;
+}
+
+.greenline {
+  background-color: #1db954;
+  height: 20px;
+  width: 2px;
+  position: relative;
+  transform-origin: bottom;
+}
+
+.line-1 {
+  animation: infinite playing 1s ease-in-out;
+  animation-delay: 0.2s;
+}
+
+.line-2 {
+  animation: infinite playing 1s ease-in-out;
+  animation-delay: 0.5s;
+}
+
+.line-3 {
+  animation: infinite playing 1s ease-in-out;
+  animation-delay: 0.6s;
+}
+
+.line-4 {
+  animation: infinite playing 1s ease-in-out;
+  animation-delay: 0s;
+}
+
+.line-5 {
+  animation: infinite playing 1s ease-in-out;
+  animation-delay: 0.4s;
+}
+
+@keyframes playing {
+  0% {
+    transform: scaleY(0.1);
+  }
+
+  33% {
+    transform: scaleY(0.6);
+  }
+
+  66% {
+    transform: scaleY(0.9);
+  }
+
+  100% {
+    transform: scaleY(0.1);
+  }
+}
+
+
+
